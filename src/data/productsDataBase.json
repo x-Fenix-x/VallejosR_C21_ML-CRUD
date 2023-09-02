@@ -1,146 +1,82 @@
 [
    {
-      "id": 1,
-      "name": "Cafetera Moulinex Dolce Gusto Edited",
-      "price": 5000,
-      "discount": 50,
+      "id": "e4ce8fca-879c-4dcb-8f78-13474d7f21f6",
+      "name": "Moto G13 128gb 4gb Ram Rosa",
+      "description": "Mayor rendimiento\r\nSu memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.\r\n\r\nGran capacidad de almacenamiento\r\nCon su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso.",
+      "price": 109999,
+      "discount": 10,
       "category": "visited",
-      "description": "Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price.",
-      "image": "img-cafetera-moulinex.jpg"
+      "image": "1693688451123_products_.png",
+      "createAt": "2023-09-02T18:00:51.174-03:00"
    },
    {
-      "id": 2,
-      "name": "Macbook Pro 2022",
-      "price": 500,
-      "discount": 3,
+      "id": "524f3de9-98c4-46b5-b71c-d718f43429f9",
+      "name": "Hidrolavadora Eléctrica Fierce Portátil Fhi1102dh 1100w",
+      "description": "¿Por qué elegir la FHI1102?\r\n\r\nLa hidrolavadora de alta presión Fierce formará parte integral de cualquier hogar, oficina y taller, simplificando sus tareas de limpieza como nunca antes. La ingeniería y tecnologías de avanzada de Fierce le aportan su probada confiabilidad, durabilidad y robustez como ningún otro equipo del mercado es capaz de ofrecer.\r\n\r\nESPECIFICACIONES TÉCNICAS:\r\n\r\n- VOLTAJE: 220V\r\n- FRECUENCIA: 50Hz\r\n- POTENCIA: 1100W - 1.5 HP\r\n- PRESIÓN MÁXIMA: 90 BAR - 0,9 MPA\r\n- CAUDAL DE AGUA: 390L/H\r\n- APAGADO AUTOMÁTICO DE EMERGENCIA\r\n- ACCESORIOS: PISTOLA GATILLO, MANGUERA DE ALTA PRESIÓN, PICO CONEXIÓN MANGUERA AGUA DE RED\r\n- PORTA ACCESORIOS\r\n- FILTRO DE AGUA\r\n- DEPÓSITO DE ESPUMA/DETERGENTE: NO\r\n- CHORRO ABANICO REGULABLE",
+      "price": 33749,
+      "discount": 26,
       "category": "in-sale",
-      "description": "Macbook Pro 2019 Mpxq2ll/a Intel Core i5 2.3 Ghz 8gb RAM 128gb SSD Pantalla 13.3\" Retina Apple Nueva Original. Importada de USA. Se entrega con la factura de compra para contar con la garantía del fabricante",
-      "image": "img-macbook-pro-2019.jpg"
+      "image": "1693688220239_products_.png",
+      "createAt": "2023-09-02T17:57:00.290-03:00"
    },
    {
-      "id": 3,
-      "name": "Samsung Galaxy S10",
-      "price": 72999,
-      "discount": 25,
+      "id": "f505f4c0-63c1-43f9-bedd-1a5bc5b5ac9c",
+      "name": "Freidora de aire Oryx OR3202 de 3.2L color negro 220V-240V",
+      "description": "La freidora de aire Oryx será tu aliada para preparar las comidas que más disfrutas de forma más saludable.\r\n\r\nLa freidora de aire Oryx OR3202 te permite cocinar sin la necesidad de usar aceite.",
+      "price": 58719,
+      "discount": 15,
+      "category": "visited",
+      "image": "1693688338309_products_.png",
+      "createAt": "2023-09-02T17:58:58.361-03:00"
+   },
+   {
+      "id": "778d203a-d633-4300-8745-faf53bd3d82f",
+      "name": "Tablet Samsung Galaxy Tab A A7 Lite SM-T220 8.7\" 32GB plateada y 3GB de memoria RAM",
+      "description": "Esta tablet Samsung es la compañera ideal, con capacidad de sobra para cada una de tus actividades. El diseño delgado, compacto y portátil, con facilidad para sostener en una mano, lo convierte en una combinación perfecta de rendimiento y versatilidad.\r\n\r\nTransferir, sincronizar y acceder a tus dispositivos las veces que quieras ahora es posible. Sus conexiones wi-fi, wi-fi direct, bluetooth, usb-c te permiten potenciar sus funciones al máximo.\r\n\r\nCapturá todos tus momentos al instante\r\nGracias a sus cámaras, con resoluciones de 8 Mpx y 2 Mpx, podrás hacer videollamadas o sacarte fotos en cualquier momento y lugar, con una excelente calidad de imagen. Nitidez, brillo y colores vibrantes harán que tus experiencias se reflejen de manera óptima.",
+      "price": 126279,
+      "discount": 28,
       "category": "in-sale",
-      "description": "Experiencia visual excepcional. Mirá tus series y películas favoritas con la mejor definición.Tendrás colores brillantes y detalles precisos en todos tus contenidos.Disfrutá aún más del mejor entretenimiento gracias a su vasta pantalla y ángulos de visión amplios.",
-      "image": "img-samsung-galaxy-s10.jpg"
+      "image": "1693688399073_products_.png",
+      "createAt": "2023-09-02T17:59:59.125-03:00"
    },
    {
-      "id": 4,
-      "name": "Heladera no frost Whirlpool WRM45A",
-      "description": "Disfrutá de la frescura de tus alimentos y almacenalos de manera práctica y cómoda en tu heladera Whirlpool, la protagonista de tu cocina. Su sistema no frost evita la generación de escarcha y te permitirá conservar el sabor y las propiedades nutritivas de los productos.A su vez, su freezer cuenta con una capacidad de 86 litros, que facilitará la distribución y el orden de tus congelados para que no te preocupes por la falta de espacio.",
-      "price": 47900,
-      "discount": 10,
-      "image": "img-heladera-whirpool.jpg",
-      "category": "in-sale"
-   },
-   {
-      "id": 5,
-      "name": "Nikon Reflex D3500 - Kit",
-      "description": "Incluye la cámara D3500, el objetivo zoom AF-P DX NIKKOR 18-55mm y el superteleobjetivo zoom compacto AF-P DX NIKKOR 70-300mm. Ambos objetivos enfocan de forma rápida y silenciosa, lo que resulta ideal para grabar metraje de vídeo sin que se escuche apenas el ruido del accionamiento.",
-      "price": 53000,
-      "discount": 20,
-      "image": "img-camara-nikon.jpg",
-      "category": "in-sale"
-   },
-   {
-      "id": 6,
-      "name": "Aire Acondicionado 3200w Frio / Calor",
-      "description": "AIRE SPLIT 3200W TACA-3200WCHSA/KC FC TCL. Capacidad frio 3200 Watts. Capacidad calor 3300 Watts. Potencia Electrica(W)frio 996. Potencia Electrica(W)calor 1028. Eficiencia energética calor C. Eficiencia energética frio A. Frigorias 2750 UNIDAD INTERIOR. Peso Bruto 10kg. Peso Neto 7 kg",
-      "price": 20999,
-      "discount": 12,
-      "image": "img-aire-acondicionado.jpg",
-      "category": "in-sale"
-   },
-   {
-      "id": 7,
-      "name": "Notebook Lenovo I3 Intel 8gb Ram",
-      "description": "PROCESADOR / CHIPSET. CPU: Intel Core i3(8a generación) 8130U / 2.2 GHz. Velocidad turbo máxima: 3, 4 GHz. Numero de núcleos: Doble núcleo. Cache: 4 MB. Arquitectura de 64 bit: ss. MEMORIA CACHÉ. Tamaño instalada: 4 MB. ALMACENAMIENTO. Interfaz Serial ATA - 600",
-      "price": 36700,
+      "id": "e13ac748-60f0-4c2d-981f-0f2582ec7116",
+      "name": "Smart Tv 32 Pulgadas Hd Dk32x7000 - Noblex",
+      "description": "TV LED SMART 32P DK32X7000 NOBLEX PANTALLA\r\n- Tipo de pantalla: Led\r\n- Tipo de tv: Smart tv\r\n- Pulgadas: 32\"\r\n- Resolución de video: 1366x768\r\n- Relación de aspecto: 16:9\r\n- Contraste: 3000:1\r\n- Brillo: 180cd\r\n- Tiempo de respuesta (ms): 6,5ms\r\n- Frecuencia de refresco (hz): 60hz\r\n- Norma de video: pal-n / pal-m /ntsc SONIDO\r\n- Cantidad de parlantes: 2\r\n- Potencia de parlantes (rms) (w) : 6w rms (x2)\r\n- Sap: Si\r\n- Ecualizador: Si CONECTIVIDAD\r\n- HDMI: 2\r\n- USB: 2\r\n- WI-FI: SI\r\n- Puerto de red: Si\r\n- VGA: No\r\n- Audio y video (A/V): Vía adaptador\r\n- Sintonizador digital TDA: Si\r\n- Bluetooth: Si\r\n- HDMI CEC: Si\r\n- Video por componentes (Y,PB,PR + AUDIO): No FUNCIONES ESPECIALES: Smart TV, Youtube,Apto netflix,Google assistant,Juegos,Control parental DIMENSIONES\r\n- Ancho\r\n- sin base (mm): 717\r\n- Profundidad\r\n- sin base (mm): 86\r\n- Alto\r\n- sin base (mm): 427\r\n- Ancho\r\n- con base (mm): 717\r\n- Profundidad\r\n- con base (mm): 160\r\n- Alto\r\n- con base (mm): 469\r\n- Peso (kg): 3,7\r\n- Modelo: DK32X7000\r\n- Origen Argentina",
+      "price": 104999,
       "discount": 5,
-      "image": "img-laptop-lenovo.jpg",
-      "category": "in-sale"
+      "category": "visited",
+      "image": "1693688497495_products_.png",
+      "createAt": "2023-09-02T18:01:37.551-03:00"
    },
    {
-      "id": 8,
-      "name": "Apple iPhone 11 Pro Dual SIM 256 GB",
-      "description": "¡El nuevo smartphone que lo tiene todo! Con este lanzamiento, Apple ha superado todos sus récords. Su diseño se destaca por sus líneas finas y distinguidas a partir de una sola hoja de vidrio resistente, combinada con aluminio de excelente calidad.",
-      "price": 148000,
-      "discount": 2,
-      "image": "img-iphone-11.jpg",
-      "category": "in-sale"
-   },
-   {
-      "id": 9,
-      "name": "Teclado Apple Magic Inalámbrico",
-      "description": "El teclado mágico combina un diseño elegante con una batería recargable incorporada y funciones clave mejoradas. Con un mecanismo de tijera estable debajo de cada tecla, así como un recorrido de teclas optimizado y un perfil bajo, el Teclado Mágico ofrece una experiencia de escritura notablemente cómoda y precisa.",
-      "price": 11399,
-      "discount": 0,
-      "image": "img-apple-magic-keyboard.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 10,
-      "name": "Mouse Inalámbrico Logitech M280",
-      "description": "Uso más cómodo para la mano derecha gracias a la forma contorneada con recubrimiento de goma blanda. Duración de las pilas hasta 18 meses, gracias al diseño para ahorrar energía.El M280 entra automáticamente en estado de suspensión cuando no se está usando.",
-      "price": 1200,
-      "discount": 10,
-      "image": "img-mouse-logitech.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 11,
-      "name": "Parlante Inalámbrico Bose Soundtouch 10",
-      "description": "Parlante Inalámbrico Bose Soundtouch 10. SoundTouch®.La manera más sencilla de reproducir música en todo su hogar de forma inalámbrica. Características. » Marca: Bose. » Modelo: SoundTouch. » Color: Negro",
-      "price": 29990,
-      "discount": 12,
-      "image": "img-parlante-bose.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 12,
-      "name": "Home Theatre Sony Bdv-e4100",
-      "description": "El sonido Surround de 5.1 canales y 1000 W proporciona un audio de verdadero impacto en los efectos especiales de películas y efectos de sonido de música y deportes. Con la tecnología Near Field Communication(NFC) podés disfrutar de Sonido One- Touch para reproducir música de forma instantánea",
-      "price": 32990,
-      "discount": 0,
-      "image": "img-home-theater-sony.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 13,
-      "name": "Smart TV Samsung 4K 50",
-      "description": "Con el Smart TV Samsung UN50MU6100, viví una nueva experiencia visual con la resolución 4K, que te presentará imágenes con gran detalle y de alta calidad. Ahora todo lo que veas cobrará vida con brillo y colores más reales. Gracias a su tamaño de 50\", podrás transformar tu espacio en una sala de cine y transportarte a donde quieras.",
-      "price": 34990,
-      "discount": 0,
-      "image": "img-tv-samsung-smart.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 14,
-      "name": "Sony S6700 Reproductor De Blu-ray ",
-      "description": "Disfruta de tus películas favoritas con hasta cuatro veces más detalles que Full HD, gracias a la conversión de señales 4K. Cuando se conecta a un televisor compatible,un procesador de video avanzado convierte el video estándar en una señal cercana a la resolución 4K (3840 x 2160). Con ocho millones de píxeles, obtendrás imágenes más nítidas y detalladas, y la mayor calidad de la image te permite sentarte más cerca de la pantalla para que te sientas como en el cine.",
-      "price": 10999,
-      "discount": 5,
-      "image": "img-sony-blueray.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 15,
-      "name": "Bicicleta Mountain Bike Fierce Rodado 29",
-      "description": "Bicicleta Mountain Bike Fierce Rodado 29 21 velocidades. Tipo: Mountain Bike. Rodado: 29. Material Cuadro: Aluminio. Talle: 18. Suspensión: Delantera. Velocidades: 21 - Shimano. Sistema de Freno: Disco Mecánico. Llantas: Doble pared.",
-      "price": 15979,
-      "discount": 12,
-      "image": "img-bicicleta-fierce.jpg",
-      "category": "visited"
-   },
-   {
-      "id": 16,
-      "name": "Sony Srs-xb12 Parlante Bluetooth Portátil",
-      "price": 4699,
-      "discount": 5,
+      "id": "9e6be1a0-2ff1-45b3-a872-a27c6bac6333",
+      "name": "Monitor gamer Samsung F24T35 led 24\" azul y gris oscuro 100V/240V",
+      "description": "Vista totalmente expansiva:\r\n\r\n- Diseño minimalista, máxima concentración, la pantalla sin bordes en tres de sus lados aporta una estética clara y moderna a cualquier entorno de trabajo, en una en torno de varios monitores, las pantallas se alinean a la perfección para una vista prácticamente sin espacios y sin distracciones.\r\n\r\nPodrás ver desde cualquier ángulo:\r\n\r\n- Siéntate en cualquier lugar y disfruta de una experiencia tecnicolor completa, el panel IPS conserva la claridad y la intensidad del color en cada pulgada de la pantalla, incluso con una pantalla así de amplia, los tonos y los matices se ven completamente precisos desde prácticamente cualquier ángulo, sin lavado de color.\r\n\r\nAcción en sincronía:\r\n\r\nLa tecnología AMD Radeon FreeSync™ ofrece una experiencia de entretenimiento sumamente fluida, ya que mantiene sincronizada la frecuencia de actualización del monitor y la tarjeta gráfica, reduciendo el desgarro y el parpadeo de la imagen. Así, puedes disfrutar de tus películas y videojuegos sin interrupciones, puesto que incluso las escenas de acción rápida lucen claras.\r\n\r\nImágenes perfectas y fluidas:\r\n\r\n- Ahora todas las imágenes se ven impecables, la frecuencia de actualización de 75 Hz produce escenas más fluidas, ya sea que te estés poniendo al día con tu drama favorito, mires un video o juegues, tu entretenimiento es fluido, sin demoras ni efecto fantasma.\r\n\r\nMás potencia para juegos:\r\n\r\n- Ajustes ideales para juego para que obtengas ventaja al instante, consigue un color y un contraste de imagen óptimos para ver las escenas más claras y descubrir a los enemigos en la oscuridad, el modo juegos ajusta cualquier juego para que puedas observar cada detalle en la pantalla.\r\n\r\nProtege la vista:\r\n\r\n- La tecnología avanzada de comodidad para la vista reduce la fatiga visual para que el uso extendido del monitor sea menos agotador, la tecnología anti-titileo elimina constantemente el parpadeo molesto e irritante de la pantalla, mientras que el modo protección visual minimiza la emisión de luz azul, los ojos se mantienen frescos por más tiempo.",
+      "price": 119999,
+      "discount": 27,
       "category": "in-sale",
-      "description": "Deja que la música dance cobre vida con EXTRA BASS™ Anima el ambiente con EXTRA BASS™1. Un radiador pasivo trabaja con el parlante monoaural para potenciar los tonos bajos y mejorar los graves, a pesar del tamaño compacto. ",
-      "image": "img-parlante-sony.jpg"
+      "image": "1693688606849_products_.png",
+      "createAt": "2023-09-02T18:03:26.903-03:00"
+   },
+   {
+      "id": "1cd93873-cae4-4076-b7ee-6ffcf96952e6",
+      "name": "Set X124 Herramientas Manuales Bmt124c-ar Black+decker",
+      "description": "Descripción:\r\n\r\n_1 miniarco de sierra\r\n_10 puntas\r\nPunta Ranurada: 1/8” ; 3/16” ; 1/4\".\r\nPunta Phillips: PH1 ; PH2.\r\nPunta Torx: T15 ; T20.\r\nPunta Hexagonal: 1/8” ; 5/32”.\r\nAdaptador (1)\r\n_1 Linterna LED\r\n_4 Destornilladores de Precisión\r\n_1 Llave Ajustable\r\n_8 Llaves Hexagonales\r\n_1 Martillo Mango de Acero\r\n_1 Alicate de Punta Larga 6\" (152,4 mm)\r\n_1 Alicate Universal 6\"\r\n_1 Adaptador de Puntas\r\n_1 Destornillador Phillips: PH2 x 100mm\r\n_1 Destornillador Plano: 6mm x 100mm\r\n_1 Destornillador Busca Polo: 5-1/2” x 140mm\r\n_1 Cuchilla Snap-Off\r\n_9 Dados Encastre 1/4\" (6,35 mm)\r\n5mm, 6mm, 7mm, 8mm, 9mm, 10mm, 11mm, 12mm, 13mm\r\n_82 Accesorios",
+      "price": 17726,
+      "discount": 30,
+      "category": "visited",
+      "image": "1693688788688_products_.png",
+      "createAt": "2023-09-02T18:06:28.741-03:00"
+   },
+   {
+      "id": "22980428-5aaf-495f-a0d9-6e73e4dbae38",
+      "name": "Estufa Electrica Infrarroja 2 Velas Cuarzo 400w Y 800w",
+      "description": "¿Estás buscando calefaccionar ambientes pequeños? Mantener la temperatura de tus espacios durante el invierno ya no es un problema. El calefactor eléctrico Embassy BW-0800 te permite disfrutar de tu hogar durante todo el año, de una manera más práctica y sencilla.\r\n\r\nSeguridad en todo momento\r\nA su vez cuenta con protección de sobrecalentamiento, por lo que previene daños internos ocasionados por las altas temperaturas.",
+      "price": 9999,
+      "discount": 43,
+      "category": "in-sale",
+      "image": "1693689595872_products_.png",
+      "createAt": "2023-09-02T18:19:55.922-03:00"
    }
 ]

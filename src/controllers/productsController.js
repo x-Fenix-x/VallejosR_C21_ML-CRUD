@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const { v4: uuidv4 } = require('uuid');
+const { DateTime } = require('luxon');
 
 const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
@@ -20,10 +22,20 @@ const controller = {
         });
     },
 
+    // Offers - Products on sale
+    offers: (req, res) => {
+        return res.render('offers', {
+            productsInSale: products.filter(
+                (product) => product.category === 'in-sale'
+            ),
+            toThousand,
+        });
+    },
+
     // Detail - Detail from one product
     detail: (req, res) => {
         const product = products.find(
-            (product) => product.id === +req.params.id
+            (product) => product.id === req.params.id
         );
         return res.render('detail', {
             ...product,
@@ -39,15 +51,19 @@ const controller = {
     // Create -  Method to store
     store: (req, res) => {
         const { name, price, discount, description, category } = req.body;
+        const image = req.file ? req.file.filename : null;
+
         let newProduct = {
-            id: products[products.length - 1].id + 1,
+            id: uuidv4(),
             name: name.trim(),
+            description: description.trim(),
             price: +price,
             discount: +discount,
             category,
-            description: description.trim(),
-            image: null,
+            image: image,
+            createAt : DateTime.local(),
         };
+        
         products.push(newProduct);
         fs.writeFileSync(
             productsFilePath,
@@ -60,25 +76,37 @@ const controller = {
     // Update - Form to edit
     edit: (req, res) => {
         const product = products.find(
-            (product) => product.id === +req.params.id
+            (product) => product.id === req.params.id
         );
         return res.render('product-edit-form', {
             ...product,
         });
     },
+
     // Update - Method to update
     update: (req, res) => {
         const { name, price, discount, description, category } = req.body;
-        const productsModify = products.map((product) => {
-            if (product.id === +req.params.id) {
-                product.name = name.trim();
-                product.price = +price;
-                product.discount = +discount;
-                product.category = category;
-                product.description = description.trim();
+        const image = req.file ? req.file.filename : null;
+
+        const productUpdate = products.find(
+            (product) => product.id === req.params.id
+        );
+
+        if (productUpdate.image) {
+            const imagePath = `./public/images/products/${productUpdate.image}`;
+            if (fs.existsSync(imagePath)) {
+                fs.unlinkSync(imagePath);
             }
-            return product;
-        });
+        }
+
+        productUpdate.name = name.trim();
+        productUpdate.description = description.trim();
+        productUpdate.price = +price;
+        productUpdate.discount = +discount;
+        productUpdate.category = category;
+        productUpdate.image = image;
+        productUpdate.createAt = DateTime.local();
+
         fs.writeFileSync(
             productsFilePath,
             JSON.stringify(products, null, 3),
@@ -89,8 +117,19 @@ const controller = {
 
     // Delete - Delete one product from DB
     destroy: (req, res) => {
+        const productDestroy = products.find(
+            (product) => product.id === req.params.id
+        );
+
+        if (productDestroy.image) {
+            const imagePath = `./public/images/products/${productDestroy.image}`;
+            if (fs.existsSync(imagePath)) {
+                fs.unlinkSync(imagePath);
+            }
+        }
+
         const productsModify = products.filter(
-            (product) => product.id !== +req.params.id
+            (product) => product.id !== req.params.id
         );
         fs.writeFileSync(
             productsFilePath,

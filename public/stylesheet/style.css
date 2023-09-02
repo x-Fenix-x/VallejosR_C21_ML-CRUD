@@ -162,6 +162,10 @@ hr {
   color: var(--gray);
 }
 
+.products-title__results{
+  color: #ff6347;
+}
+
 .product-box {
   background-color: #ffffff;
   border-radius: 5px;
@@ -241,6 +245,13 @@ hr {
   box-shadow: 0 0 5px var(--green);
 }
 
+/*====== Offers ======*/
+
+.ver-todas{
+  color: #1259c3;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 
 /*====== Footer ======*/
 .main-footer {
@@ -276,9 +287,12 @@ hr {
 }
 
 .sub-footer p {
+  display: flex;
+  justify-content: center;
   margin: 0;
-  color: var(--gray);
   padding: 15px 0;
+  font-size: 1.25rem;
+  color: var(--gray);
 }
 
 
@@ -360,6 +374,10 @@ hr {
   border-radius: 8px;
   border: none;
   margin-bottom: 15px;
+}
+
+.buy-now-button:hover{
+  background-color: #000000;
 }
 
 .action-button {

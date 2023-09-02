@@ -4,7 +4,7 @@
             <img src="/images/products/<%= image || "default-image.png"%>" alt="imagen de producto">
         </figure>
         <article class="product-box_data">
-            <h2>$<%= toThousand((price - (price*discount/100)).toFixed(0)) %></h2>
+            <h2>$<%= toThousand(Math.round(price - (price * discount / 100))) %></h2>
             <% if (discount) { %>
                 <span><%= discount %> % OFF</span>
             <% } %>
