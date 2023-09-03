@@ -306,7 +306,7 @@ hr {
 .product-detail-img {
   width: 70%;
   display: block;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .product-detail-info {
@@ -338,6 +338,7 @@ hr {
 
 .small span {
   text-decoration: line-through;
+  color: #c64545;
 }
 
 .actions-list {
@@ -373,7 +374,7 @@ hr {
   padding: 15px;
   border-radius: 8px;
   border: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .buy-now-button:hover{
@@ -395,8 +396,21 @@ hr {
 .action-button.edit {
   background-color: chocolate;
 }
+
+.action-button.edit:hover {
+  background-color: rgb(142, 64, 8);
+}
+
 .action-button.delete {
   background-color: rgb(248, 69, 37);
+}
+
+.action-button.delete:hover {
+  background-color: rgb(135, 27, 8);
+}
+
+.products-title__name{
+  font-weight: 600;
 }
 
 

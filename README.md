@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="">
     <img alt="ml-crud" src="/public/images/logo-mercado-liebre.svg" width="450">
-  </a>
 </p>
 <h1 align="center"> MERCADOLIEBRE - CRUD </h1>
 

@@ -22,7 +22,7 @@
 							<img src="/images/products/<%= image || 'default-image.png' %>" alt="product image"
 								class="product-detail-img">
 							<p class="product-detail-description">
-								<%= description %>
+								<%= description.replace(/\n/g, "- " ) %>
 							</p>
 						</div>
 						<div class="col-12 col-lg-4">
@@ -41,7 +41,7 @@
 										</b>
 									</p>
 									<p class="product-detail-price">
-										$ <%= toThousand((price - (price*discount/100)).toFixed(0)) %>
+										$ <%= toThousand(Math.round(price - (price*discount/100))) %>
 									</p>
 									<% } else { %>
 
@@ -62,13 +62,47 @@
 											</ul>
 
 											<a href="#" class="buy-now-button">COMPRAR AHORA</a>
-											<hr>
 
 											<a href="/products/edit/<%= id %>" class="action-button edit">EDITAR
 												PRODUCTO</a>
 											<form action="/products/delete/<%= id %>?_method=DELETE" method="POST"
 												style="display: inline-flex">
-												<button type="submit" class="action-button delete">ELIMINAR</button>
+
+												<!-- BOTÓN MODAL -->
+												<button type="button" class="action-button delete"
+													data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+													ELIMINAR
+												</button>
+
+												<!-- MODAL DELETE -->
+												<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+													data-bs-keyboard="false" tabindex="-1"
+													aria-labelledby="staticBackdropLabel" aria-hidden="true">
+													<div class="modal-dialog">
+														<div class="modal-content">
+															<div class="modal-header">
+																<h1 class="modal-title fs-5" id="staticBackdropLabel">
+																	Eliminar producto</h1>
+																<button type="button" class="btn-close"
+																	data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+															<div class="modal-body">
+																<p class="products-title">¿Seguro que desea eliminar el
+																	producto: <span class="products-title__name">
+																		<%= name %>
+																	</span>?</p>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-primary"
+																	data-bs-dismiss="modal">Cerrar</button>
+																<button type="submit"
+																	class="btn btn-danger">Eliminar</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- MODAL -->
+
 											</form>
 							</article>
 						</div>

@@ -107,7 +107,6 @@ const controller = {
         productUpdate.price = +price;
         productUpdate.discount = +discount;
         productUpdate.category = category;
-        productUpdate.createAt = DateTime.local();
 
         fs.writeFileSync(
             productsFilePath,
