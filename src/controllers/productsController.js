@@ -61,9 +61,9 @@ const controller = {
             discount: +discount,
             category,
             image: image,
-            createAt : DateTime.local(),
+            createAt: DateTime.local(),
         };
-        
+
         products.push(newProduct);
         fs.writeFileSync(
             productsFilePath,
@@ -92,11 +92,14 @@ const controller = {
             (product) => product.id === req.params.id
         );
 
-        if (productUpdate.image) {
-            const imagePath = `./public/images/products/${productUpdate.image}`;
-            if (fs.existsSync(imagePath)) {
-                fs.unlinkSync(imagePath);
+        if (image) {
+            if (productUpdate.image) {
+                const imagePath = `./public/images/products/${productUpdate.image}`;
+                if (fs.existsSync(imagePath)) {
+                    fs.unlinkSync(imagePath);
+                }
             }
+            productUpdate.image = image;
         }
 
         productUpdate.name = name.trim();
@@ -104,7 +107,6 @@ const controller = {
         productUpdate.price = +price;
         productUpdate.discount = +discount;
         productUpdate.category = category;
-        productUpdate.image = image;
         productUpdate.createAt = DateTime.local();
 
         fs.writeFileSync(

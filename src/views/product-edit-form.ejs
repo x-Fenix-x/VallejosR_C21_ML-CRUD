@@ -46,10 +46,12 @@
 							<div class="col-12 col-md-6">
 								<label for="image" class="form-label">Imagen:</label>
 							</div>
-							<div class="col-12">
+							<div class="col-12 mb-4">
 								<label for="image" class="btn btn-secondary">Cambiar imagen</label>
-								<input hidden class="form-control" type="file" id="image" name="image"
-									accept="image/*" multiple>
+								<input hidden class="form-control" type="file" id="image" name="image" accept="image/*">
+							</div>
+							<div class="col-12 col-md-6">
+									<img src="/images/products/<%= image %>" alt=""/>
 							</div>
 							<div class="col-12">
 								<label for="description" class="form-label">Descipción:</label>
